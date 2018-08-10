@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Exo:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <title>RGPD Privacy Policy</title>
+    </head>
+    <body>
+        <div class="color container-fluid">
+            <div class="row">
+                <div class="col-lg-9 col-sm-12"><h3>RGPD Privacy Policy Form</h3></div>
+                <div class="col-lg-3 col-sm-12"><img height="30" class="float-right" src="http://via.placeholder.com/409x78.png" alt="Company Name"></div>
+            </div>
+        </div>
+        <div class="formulario container-fluid">
+            <form id="formulartrio" class="container poes" method="post" action="php/cont-datos.php" novalidate>
+                <div class="row">
+                    <div class="col">
+                        <h2>Acceptance of new RGPD Privacy Policy</h2></br>
+                        In order to comply with the consent requirements of the RGPD, we need you to confirm that you want to continue receiving our newsletter and other information related to Tec1 Electronics Group S.A. that we send you periodically by email. </br> </br> That is why we need you to accept to continue receiving our Newsletter. </br> </br> <small class = "red"> * Required </small>
+                    </div>
+                </div>
+                <div class="pt-4 form-group">
+                    <label for="correo"><h5>E-mail <strong class="red">*</strong></h5></label>
+                    <input name="correo" type="email" class="form-control" id="correo" placeholder="Your email address" required>
+                    <div class="invalid-feedback">Fill this field</div>
+                </div>
+                <div class="pt-4 form-group">
+                    <label for="aceptacion"><h5>Do you want to continue receiving our communications? <strong class="red">*</strong></h5></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="aceptacion" id="aceptasi" value="Si" required>
+                        <label class="form-check-label" for="aceptasi">Yes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="aceptacion" id="aceptano" value="No" required>
+                        <label class="form-check-label" for="aceptano">No</label>
+                        <div class="invalid-feedback">Select one of the options.</div>
+                    </div>
+                </div>
+                <div class="pt-4 form-group row">
+                    <div class="col-sm-10">
+                      <button type="submit" name="submit" class="btn btn-primary">Send</button>
+                    </div>
+                  </div>
+            </form>
+        </div>
+        <div class="p-4 container-fluid foot">2018 Company Name™. All rights reserved.</div>
+        <script type="text/javascript" src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    </body>
+</html>
